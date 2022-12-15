@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* scroll to top  */
+#toTop {
+    display: inline-block;
+    background-color: rgba(0, 190, 201, 0.5);
+    text-align: center;
+    /* color: white; */
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#toTop i {
+    font-size: 25px;
+}
+
+/* navigation  */
+
+.darkYellow {
+    background-color: #daac00;
+}
+
+.yellow {
+    background-color: #fcc302;
+}
+
+.light-blue {
+    background-color: #00bec9;
+}
+
+/* navigation  */
+#navbar {
+    padding: 20px 0;
+}
+
+
+#navbar .nav-item .nav-link {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+#nav-textbox::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+#nav-textbox {
+    background-color: #fcc302;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    left: 10px;
+    padding: 10px 15px;
+}
+
+#nav-btn {
+    background-color: #00bec9;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 20px;
+}
+
+nav form i {
+    padding: 10px;
+    color: white;
+}
+
+/* banner  */
+#banner {
+    padding: 88px 0;
+    margin-top: 50px;
+}
+
+#banner-text h1 {
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+#banner-text p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#banner-img {
+    width: 450px;
+}
+
+#banner .btn1 {
+    background-color: #00bec9;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+#banner .btn2 {
+    color: white;
+    border: 2px solid;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* banner2 */
+
+#banner2 {
+    padding: 88px 0;
+}
+
+#banner2 h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#banner2 p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#banner2 button {
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* service  */
+
+#service {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#service h1 {
+    font-size: 70px;
+}
+
+#service .para {
+    font-size: 30px;
+     line-height: 35px;
+     margin-bottom: 30px;
+}
+
+.service-text {
+    margin: 0 10px;
+}
+
+.service-text h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.service-text p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* banner3  */
+#banner3 {
+    padding: 88px 0;
+}
+
+#banner3-text {
+    text-align: right;
+}
+
+#banner3-text h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#banner3-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#banner3-text button {
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* sell  */
+
+#sell {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#sell h1 {
+    font-size: 70px;
+}
+
+#sell .para {
+    font-size: 30px;
+     line-height: 35px;
+     margin-bottom: 30px;
+}
+
+.sell-text {
+    margin: 0 10px;
+}
+
+.sell-text span {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sell-text strike {
+    margin-right: 20px;
+}
+
+.sell-text button {
+    padding: 10px 30px;
+    font-size: 20px; 
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+/* team  */
+
+#team {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#team h1 {
+    font-size: 70px;
+}
+
+#team .para {
+    font-size: 30px;
+     line-height: 35px;
+     margin-bottom: 60px;
+}
+
+.team-text {
+    margin: 0 10px;
+}
+
+.team-text h3 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.team-text h5 {
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.team-text i {
+    width: 10px;
+    height: 10px;
+    background-color:#daac00;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    margin: 0 10px;
+    
+}
+
+/* counter */
+
+#counter {
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+    background-image: url('../image/counter/counter.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+#counter i{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+#counter h2 {
+    font-size: 40px;
+    font-weight: light;
+}
+
+#counter h3 {
+    font-weight: bold;
+}
+
+/* posts  */
+#posts {
+    padding: 50px 0;
+}
+
+#posts h1 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#posts .para {
+    font-size: 30px;
+     line-height: 35px;
+     margin-bottom: 60px;
+     text-align: center;
+}
+
+.posts-text {
+    margin: 0 10px;
+}
+
+.posts-text h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.posts-text h5 {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #00bec9;
+}
+
+.posts-text p {
+    font-size: 15px;
+}
+
+.posts-text button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00bec9;
+    padding-left: 0;
+}
+.posts-desc {
+    padding: 20px;
+}
+
+/* footer  */
+#footer {
+    padding: 80px 0;
+    background-color: #343434;
+}
+
+#footer h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#footer a {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#footer input {
+    background-color: #daac00;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: 0;
+    width: 60%;
+    position: relative;
+    left: 10px;
+}
+
+#footer button {
+    background-color: #00bec9;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: 0;
+    width: 25%;
+}
+
+#footer .para {
+    margin-top: -10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#footer form {
+    margin-bottom: 30px;
+}
+
+#footer .social-icons i {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    background-color: white;
+    color: #343434;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
